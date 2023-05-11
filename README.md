@@ -7,7 +7,7 @@
 ### Lazy
 ```lua
 {
-  "Grzdaczek/oolong.nvim",
+  "theKlisha/oolong.nvim",
   lazy = false, -- make sure we load this during startup if it is your main colorscheme
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
@@ -19,7 +19,7 @@
 ### Packer
 ```lua
 use({
-  "Grzdaczek/oolong.nvim"
+  "theKlisha/oolong.nvim"
   config = function()
     require("oolong").setup()
   end,
